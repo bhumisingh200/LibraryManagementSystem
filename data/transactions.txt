@@ -1,0 +1,6 @@
+2026-06-21||SYSTEM||Admin||ADD_BOOK||English Ncert||System added Book: English Ncert||0.0
+2026-06-21||M104||bhumi||DEPOSIT||Wallet Load||bhumi added Rs. 5000.0 to wallet||5000.0
+2026-06-21||M104||bhumi||BORROW||Java Complete Reference||bhumi borrowed Java Complete Reference for 7 days||20.0
+2026-06-21||M104||bhumi||RESERVE||Java Complete Reference||bhumi reserved Java Complete Reference (Fee Paid: Rs. 10.0)||10.0
+2026-06-21||M104||bhumi||MEMBERSHIP||Premium Sub 1m||bhumi purchased Premium Membership for 1 months||99.0
+2026-06-21||M104||bhumi||BORROW||Clean Code||bhumi borrowed Clean Code for 30 days||48.0

@@ -1,0 +1,4 @@
+M101||Bhumi Singh||bhumi||password||1000.0||150||16||42||2026-06-21||10||7||false||NONE
+M102||Rahul Sharma||rahul||password||500.0||50||5||10||2026-06-21||10||0||false||NONE
+M103||Amit Patel||amit||password||2000.0||350||25||30||2026-06-19||10||0||false||NONE
+M104||bhumi||bhu||bhu||4823.0||0||1||1||2026-06-21||10||0||true||2026-07-21
