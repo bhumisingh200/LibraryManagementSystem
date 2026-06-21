@@ -98,3 +98,30 @@ The system automatically initializes default records on its first execution. Log
 | **Member** | `bhumi` | `password` | **Bhumi Singh** (150 pts, Silver Reader, active streak, ₹1000 wallet). |
 | **Member** | `amit` | `password` | **Amit Patel** (350 pts, Gold Reader, ₹2000 wallet). |
 | **Member** | `rahul` | `password` | **Rahul Sharma** (50 pts, Bronze Reader, ₹500 wallet). |
+
+
+## 📸 Screenshots
+
+### Login Screen
+![Login](screenshots/login.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Book Management
+![Book Management](screenshots/book-management.png)
+
+### Smart Search
+![Search](screenshots/search.png)
+
+### Member Dashboard
+![Member Dashboard](screenshots/member-dashboard.png)
+
+### Reading Leaderboard
+![Leaderboard](screenshots/leaderboard.png)
+
+### Library Report PDF
+![Library Report](screenshots/library-report.png)
+
+### Financial Report PDF
+![Financial Report](screenshots/financial-report.png)
