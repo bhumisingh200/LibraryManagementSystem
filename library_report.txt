@@ -5,8 +5,8 @@ Date Generated: 21-Jun-2026
 
 --- OVERVIEW SUMMARY ---
 Total Books in Library : 10
-Available Books        : 8
-Issued Books           : 2
+Available Books        : 7
+Issued Books           : 3
 Reserved Books         : 0
 Registered Members     : 4
 Total Fines Collected  : Rs. 0.00
@@ -23,7 +23,7 @@ B106     | Sapiens                   | Yuval Noah Harari  | History      | Avail
 B107     | Atomic Habits             | James Clear        | Self-Help    | Available 
 B108     | Deep Work                 | Cal Newport        | Self-Help    | Available 
 B109     | The Hobbit                | J.R.R. Tolkien     | Fiction      | Available 
-B110     | English Ncert             | CBSE               | English      | Available 
+B110     | English Ncert             | CBSE               | English      | Issued    
 
 --- SYSTEM MEMBERS ---
 Mem ID   | Name                 | Level      | Wallet Balance | Premium Status
@@ -31,11 +31,12 @@ Mem ID   | Name                 | Level      | Wallet Balance | Premium Status
 M101     | Bhumi Singh          | Silver     | Rs. 1000.00   | Regular     
 M102     | Rahul Sharma         | Bronze     | Rs. 500.00    | Regular     
 M103     | Amit Patel           | Gold       | Rs. 2000.00   | Regular     
-M104     | bhumi                | Bronze     | Rs. 4823.00   | Premium     
+M104     | bhumi                | Bronze     | Rs. 4775.00   | Premium     
 
 --- RECENT TRANSACTIONS LOG ---
 Date        | Mem ID   | Type            | Details                         
 --------------------------------------------------------------------------
+2026-06-21  | M104     | BORROW          | bhumi borrowed English Ncert..  
 2026-06-21  | M104     | BORROW          | bhumi borrowed Clean Code fo..  
 2026-06-21  | M104     | MEMBERSHIP      | bhumi purchased Premium Memb..  
 2026-06-21  | M104     | RESERVE         | bhumi reserved Java Complete..  

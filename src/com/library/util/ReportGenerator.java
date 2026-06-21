@@ -11,7 +11,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class ReportGenerator {
 
@@ -163,10 +162,7 @@ public class ReportGenerator {
             java.io.File destDir = new java.io.File("C:\\Users\\admin\\Downloads");
             if (destDir.exists() && destDir.isDirectory()) {
                 java.io.File dest = new java.io.File(destDir, source.getName());
-                try (java.nio.channels.FileChannel srcChannel = new java.io.FileInputStream(source).getChannel();
-                     java.nio.channels.FileChannel destChannel = new java.io.FileOutputStream(dest).getChannel()) {
-                    destChannel.transferFrom(srcChannel, 0, srcChannel.size());
-                }
+                java.nio.file.Files.copy(source.toPath(), dest.toPath(), java.nio.file.StandardCopyOption.REPLACE_EXISTING);
             }
         } catch (Exception e) {
             System.err.println("Failed to copy text report to standard Downloads folder: " + e.getMessage());

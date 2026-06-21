@@ -4,18 +4,19 @@
 Date Generated: 21-Jun-2026
 
 --- FINANCIAL REVENUE DASHBOARD ---
-Total Rental Revenue       : Rs. 68.00
+Total Rental Revenue       : Rs. 116.00
 Total Book Sales Revenue   : Rs. 0.00
 Premium Membership Revenue : Rs. 99.00
 Fines Collected            : Rs. 0.00
 --------------------------------------------------------------------------
-TOTAL ACCUMULATED REVENUE  : Rs. 167.00
+TOTAL ACCUMULATED REVENUE  : Rs. 215.00
 
 --- RENTAL ANALYTICS & POPULAR BOOKS ---
 Book ID  | Book Title                     | Times Issued | Rent Count   | Sale Count  
 --------------------------------------------------------------------------
 B101     | Java Complete Reference        | 1            | 1            | 0           
 B102     | Clean Code                     | 1            | 1            | 0           
+B110     | English Ncert                  | 1            | 1            | 0           
 
 --- MEMBER SPENDINGS & BALANCES ---
 Mem ID   | Name                 | Wallet Balance | Rentals Paid | Sales Paid  
@@ -23,4 +24,4 @@ Mem ID   | Name                 | Wallet Balance | Rentals Paid | Sales Paid
 M101     | Bhumi Singh          | Rs. 1000.00    | Rs. 0.00      | Rs. 0.00     
 M102     | Rahul Sharma         | Rs. 500.00     | Rs. 0.00      | Rs. 0.00     
 M103     | Amit Patel           | Rs. 2000.00    | Rs. 0.00      | Rs. 0.00     
-M104     | bhumi                | Rs. 4823.00    | Rs. 68.00     | Rs. 0.00     
+M104     | bhumi                | Rs. 4775.00    | Rs. 116.00    | Rs. 0.00     
