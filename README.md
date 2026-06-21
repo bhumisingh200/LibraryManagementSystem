@@ -1,6 +1,6 @@
 # 📚 Library Management System (CLI)
 
-An interactive, high-fidelity command-line interface (CLI) application built using **Java** to manage library operations. This system employs robust **Object-Oriented Design (OOD)** patterns, persistent file storage, gamified reading achievements, personalized recommendation engines, and direct dependency-free PDF report writers.
+An interactive, high-fidelity command-line interface (CLI) application built using **Java** to manage library operations. This system employs robust **Object-Oriented Design (OOD)** patterns, persistent file storage, gamified reading achievements, personalized recommendation engines, and direct structured text report writers.
 
 ---
 
@@ -30,13 +30,13 @@ Supports multiple search filters case-insensitively with partial matching, or vi
 Uses multiple heuristics to recommend books:
 *   **Same Category**: Finds unread books in categories matching the member's borrowing history.
 *   **Same Author**: Recommends other works written by authors the member has previously read.
-*   **"People Who Read This Also Read"**: Co-borrower filter checking what other titles were read by members who borrowed the same books.
+*   **\"People Who Read This Also Read\"**: Co-borrower filter checking what other titles were read by members who borrowed the same books.
 
-### 5. Dependency-Free PDF Generators
-The application contains a raw byte-stream assembler compiling compliant PDF objects (catalog tables, document pages, Helvetica standard fonts, and cross-reference tables) in pure Java. Generates:
-*   `library_report.pdf`: Summarizes inventory status, members, and transaction history.
-*   `financial_report.pdf`: Tallies revenue from rental fees, book sales, and premium memberships.
-*   *Downloads Folder copy*: A copy of each PDF is automatically saved directly to the user's standard Downloads folder (`C:\Users\admin\Downloads\`) for immediate access.
+### 5. Structured Text Report Generators
+The application writes clean ASCII-formatted text tables to generate comprehensive reports:
+*   `library_report.txt`: Summarizes inventory status, members, and transaction history.
+*   `financial_report.txt`: Tallies revenue from rental fees, book sales, and premium memberships.
+*   *Downloads Folder copy*: A copy of each text report is automatically saved directly to the user's standard Downloads folder (`C:\Users\admin\Downloads\`) for immediate access.
 
 ### 6. Persistent File Storage
 All database variables are written directly to `data/*.txt` using double-pipe separators (`||`), allowing safe modification, backup, and manual audit inspection.
@@ -59,12 +59,12 @@ LibraryManagementSystem/
 │   └── com/library/
 │       ├── model/             # Domain data models (Book, Member, Transaction, Review)
 │       ├── ui/                # ANSI framing & terminal boxes (ConsoleUI)
-│       ├── util/              # Database load/saves & PDF generator utilities
+│       ├── util/              # Database load/saves & text report utilities
 │       ├── service/           # Business transactions & recommendation algorithms
 │       └── Main.java          # Controller CLI entry loop
 │
-├── library_report.pdf         # Generated general audit report (PDF)
-├── financial_report.pdf       # Generated revenue report (PDF)
+├── library_report.txt         # Generated general audit report (TXT)
+├── financial_report.txt       # Generated revenue report (TXT)
 └── run.bat                    # Windows launch script
 ```
 
@@ -93,7 +93,7 @@ The system automatically initializes default records on its first execution. Log
 
 | Role | Username | Password | Notes / Seeded Attributes |
 | :--- | :--- | :--- | :--- |
-| **Admin** | `admin` | `admin` | Full administrative privileges, revenue dashboards, and PDF exports. |
+| **Admin** | `admin` | `admin` | Full administrative privileges, revenue dashboards, and TXT report exports. |
 | **Librarian** | `lib` | `lib` | Daily check-outs, returns, simulated due dates, cash collections. |
 | **Member** | `bhumi` | `password` | **Bhumi Singh** (150 pts, Silver Reader, active streak, ₹1000 wallet). |
 | **Member** | `amit` | `password` | **Amit Patel** (350 pts, Gold Reader, ₹2000 wallet). |

@@ -1,0 +1,44 @@
+==========================================================================
+                  LIBRARY SYSTEM GENERAL AUDIT REPORT                     
+==========================================================================
+Date Generated: 21-Jun-2026
+
+--- OVERVIEW SUMMARY ---
+Total Books in Library : 10
+Available Books        : 8
+Issued Books           : 2
+Reserved Books         : 0
+Registered Members     : 4
+Total Fines Collected  : Rs. 0.00
+
+--- REGISTERED BOOKS IN INVENTORY ---
+Book ID  | Title                     | Author             | Category     | Status    
+--------------------------------------------------------------------------
+B101     | Java Complete Reference   | Herbert Schildt    | Programming  | Issued    
+B102     | Clean Code                | Robert C. Martin   | Programming  | Issued    
+B103     | Effective Java            | Joshua Bloch       | Programming  | Available 
+B104     | Head First Design Patt..  | Eric Freeman       | Programming  | Available 
+B105     | A Brief History of Time   | Stephen Hawking    | Science      | Available 
+B106     | Sapiens                   | Yuval Noah Harari  | History      | Available 
+B107     | Atomic Habits             | James Clear        | Self-Help    | Available 
+B108     | Deep Work                 | Cal Newport        | Self-Help    | Available 
+B109     | The Hobbit                | J.R.R. Tolkien     | Fiction      | Available 
+B110     | English Ncert             | CBSE               | English      | Available 
+
+--- SYSTEM MEMBERS ---
+Mem ID   | Name                 | Level      | Wallet Balance | Premium Status
+--------------------------------------------------------------------------
+M101     | Bhumi Singh          | Silver     | Rs. 1000.00   | Regular     
+M102     | Rahul Sharma         | Bronze     | Rs. 500.00    | Regular     
+M103     | Amit Patel           | Gold       | Rs. 2000.00   | Regular     
+M104     | bhumi                | Bronze     | Rs. 4823.00   | Premium     
+
+--- RECENT TRANSACTIONS LOG ---
+Date        | Mem ID   | Type            | Details                         
+--------------------------------------------------------------------------
+2026-06-21  | M104     | BORROW          | bhumi borrowed Clean Code fo..  
+2026-06-21  | M104     | MEMBERSHIP      | bhumi purchased Premium Memb..  
+2026-06-21  | M104     | RESERVE         | bhumi reserved Java Complete..  
+2026-06-21  | M104     | BORROW          | bhumi borrowed Java Complete..  
+2026-06-21  | M104     | DEPOSIT         | bhumi added Rs. 5000.0 to wa..  
+2026-06-21  | SYSTEM   | ADD_BOOK        | System added Book: English N..  

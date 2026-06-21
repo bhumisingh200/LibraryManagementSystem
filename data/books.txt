@@ -7,4 +7,4 @@ B106||Sapiens||Yuval Noah Harari||History||Available||450.0||NONE||NONE||NONE||0
 B107||Atomic Habits||James Clear||Self-Help||Available||350.0||NONE||NONE||NONE||0||0||0||EMPTY
 B108||Deep Work||Cal Newport||Self-Help||Available||399.0||NONE||NONE||NONE||0||0||0||EMPTY
 B109||The Hobbit||J.R.R. Tolkien||Fiction||Available||299.0||NONE||NONE||NONE||0||0||0||EMPTY
-B110||English Ncert||CBSE||English||Available||200.0||NONE||NONE||NONE||0||0||0||EMPTY
+B110||English Ncert||CBSE||English||Issued||200.0||M104||2026-07-21||2026-06-21||1||1||0||EMPTY

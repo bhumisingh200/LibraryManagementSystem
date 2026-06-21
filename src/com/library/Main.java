@@ -6,7 +6,7 @@ import com.library.model.Review;
 import com.library.model.Transaction;
 import com.library.service.LibraryService;
 import com.library.ui.ConsoleUI;
-import com.library.util.PdfGenerator;
+import com.library.util.ReportGenerator;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -446,11 +446,11 @@ public class Main {
         }
 
         System.out.println("\n────────────────────────────────────────────────────");
-        boolean export = ConsoleUI.promptBoolean("Would you like to export complete PDF reports? (library_report.pdf & financial_report.pdf)");
+        boolean export = ConsoleUI.promptBoolean("Would you like to export complete text reports? (library_report.txt & financial_report.txt)");
         if (export) {
-            PdfGenerator.generateLibraryReport("library_report.pdf", service.getBooks(), service.getMembers(), service.getTransactions());
-            PdfGenerator.generateFinancialReport("financial_report.pdf", service.getBooks(), service.getMembers(), service.getTransactions());
-            ConsoleUI.printSuccess("Reports exported successfully to project folder!");
+            ReportGenerator.generateLibraryReport("library_report.txt", service.getBooks(), service.getMembers(), service.getTransactions());
+            ReportGenerator.generateFinancialReport("financial_report.txt", service.getBooks(), service.getMembers(), service.getTransactions());
+            ConsoleUI.printSuccess("Reports exported successfully to project folder and Downloads!");
         }
         ConsoleUI.pause();
     }
